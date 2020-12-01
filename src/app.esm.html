@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link modulepreload="https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.2/vue.runtime.esm-browser.js"></link>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module">
+    import App from "./App.esm.js";
+    import * as Vue from "https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.2/vue.runtime.esm-browser.js";
+    Vue.createApp(App).mount("#app");
+  </script>
+</body>
+</html>
